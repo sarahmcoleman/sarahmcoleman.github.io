@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Below is a list of peer-reviewed publications and preprints authored by Sarah M. Coleman. Co-first authorship is indicated by an asterisk (\*), and Sarah's name appears in bold font. Publications are first ordered by article type, then authorship order, and finally year.
 
-### Original research articles
+#### Original research articles
 
 1.  **Coleman, S. M.**, & Peng, R. D. (2026). Do ozone action day alerts modulate active transportation in Texas cities? *Environmental Research Communications*. <https://doi.org/10.1088/2515-7620/ae2e99>
 
@@ -32,11 +32,11 @@ Below is a list of peer-reviewed publications and preprints authored by Sarah M.
 
 11. Graham, A. J., Partipilo, G., Dundas, C. M., Miniel Mahfoud, I. E., Halwachs, K. N., Holwerda, A. J., Simmons, T. R., FitzSimons, T. M., **Coleman, S. M.**, Rinehart, R., Chiu, D., Tyndall, A. E., Sajbel, K. C., Rosales, A. M., & Keitz, B. K. (2024). Transcriptional regulation of living materials via extracellular electron transfer. *Nature Chemical Biology*, 1–12. <https://doi.org/10.1038/s41589-024-01628-y>
 
-### Preprints
+#### Preprints
 
 12. **Coleman, S. M.**, Zhang, H. S., Lucchesi, L. R., & Roy, S. (2026). Exploring the periodicity of flight patterns. *arXiv.* <https://doi.org/10.48550/arXiv.2606.00128>
 
-### Research review articles
+#### Research review articles
 
 13. Soong, Y.-H. V.\*, **Coleman, S. M.\***, Liu, N., Qin, J., Lawton, C., Alper, H. S., & Xie, D. (2023). Using oils and fats to replace sugars as feedstocks for biomanufacturing: Challenges and opportunities for the yeast *Yarrowia lipolytica*. *Biotechnology Advances*, 108128. <https://doi.org/10.1016/j.biotechadv.2023.108128>
 
