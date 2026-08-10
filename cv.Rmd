@@ -19,7 +19,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Austin, TX \| [Email](mailto:sarahmcoleman.phd@gmail.com) \| [GitHub](https://github.com/sarahmcoleman) \| [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) \| [Website](https://sarahcol.quarto.pub/home/) \| [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ)
+Austin, TX \| [Email](mailto:sarahmcoleman.phd@gmail.com) \| [GitHub](https://github.com/sarahmcoleman) \| [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) \| [Website](https://sarahmcoleman.github.io/) \| [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ)
 
 ## Summary
 
