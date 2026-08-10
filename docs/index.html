@@ -276,7 +276,26 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="images/clipboard-2148760574.png" /></p>
+<style>
+.two-column {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.two-column .text {
+  flex: 0 0 60%;
+}
+
+.two-column .image {
+  flex: 1;
+}
+</style>
+<div class="two-column">
+<div class="image">
+<p><img src="images/clipboard-2148760574.png" /><!-- --></p>
+</div>
+<div class="text">
 <p>Welcome to my personal website! I’m currently a Postdoctoral Fellow
 in Statistics and Data Sciences at the University of Texas at Austin. I
 have a PhD in Chemical Engineering, and a Masters in Statistics, both
@@ -290,6 +309,8 @@ href="https://scholar.google.com/citations?user=gtfao50AAAAJ">Google
 Scholar</a>, <a
 href="https://linkedin.com/in/sarah-m-coleman-b96178127">LinkedIn</a>
 and <a href="https://orcid.org/0000-0002-0243-9776">ORCID</a>.</p>
+</div>
+</div>
 
 
 
