@@ -9,6 +9,8 @@ navbar:
       text: Home
     - href: cv.html
       text: Resume/CV
+    - href: cv.pdf
+      text: Resume/CV (pdf)
     - href: papers.html
       text: Publications
     - href: about.html
@@ -16,7 +18,9 @@ navbar:
 
 output:
   html_document:
+    theme: readable
+    css: styles.css
     includes:
       in_header: favicon.html
 
-
+# render by rmarkdown::render_site()

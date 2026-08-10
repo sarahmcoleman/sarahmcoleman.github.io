@@ -12,6 +12,7 @@ output:
     includes:
       in_header: preamble.tex
   html_document:
+    theme: readable
 ---
 
 ```{r setup, include=FALSE}
@@ -47,9 +48,9 @@ Biochemical engineer with experience in yeast, bacterial and mammalian systems, 
 ## Work Experience
 
 **BioReNuva** — Austin, TX\
-*Bioprocess Development Engineer* (Part-Time) \| Jun 2026 – Present
+*Bioprocess Development Engineer* \| Jun 2026 – Present
 
-- Leading development and optimization of a 5L bioreactor fermentation process for rhamnolipid production using attenuated *Pseudomonas aeruginosa* strains
+- Leading development and optimization of a 7.5L bioreactor fermentation process for rhamnolipid production using attenuated *Pseudomonas aeruginosa* strains
 - Establishing production timelines, identifying process bottlenecks, and defining key performance indicators (KPIs) for rhamnolipid synthesis
 - Analyzing fermentation data and experimental results to support process characterization, troubleshooting, and continuous improvement initiatives
 - Supporting technology transfer activities by developing process documentation, communicating critical process parameters, and facilitating knowledge transfer from development to manufacturing teams
