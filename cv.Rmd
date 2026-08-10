@@ -12,7 +12,6 @@ output:
     includes:
       in_header: preamble.tex
   html_document:
-    theme: cosmo
 ---
 
 ```{r setup, include=FALSE}

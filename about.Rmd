@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 about:
-  template: solana
   image: images/Sarah_Coleman_Photo.jpg
 ---
 
