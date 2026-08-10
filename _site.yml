@@ -18,6 +18,7 @@ output:
   html_document:
     theme: cosmo
     css: styles.css
-    toc: true
+    includes:
+      in_header: favicon.html
 
 
