@@ -1,0 +1,14 @@
+---
+title: "Sarah M. Coleman, Ph.D."
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Welcome to my personal website! I'm currently a Postdoctoral Fellow in Statistics and Data Sciences at the University of Texas at Austin. I have a PhD in Chemical Engineering, and a Masters in Statistics, both from UT Austin. Broadly, I'm interested in research at the intersection of engineering, life sciences, and statistics.
+
+To contact me, please email me: [sarahmcoleman.phd [at] gmail [dot] com](mailto:sarahmcoleman.phd%40gmail.com). You can also find me on [GitHub](https://github.com/sarahmcoleman), [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ), [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) and [ORCID](https://orcid.org/0000-0002-0243-9776).
+
+![](images/15FC9E95-C2F9-4C38-8B0C-625C9910CDDF_1_105_c.jpeg)

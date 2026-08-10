@@ -1,0 +1,23 @@
+name: "Sarah M. Coleman, Ph.D."
+
+output_dir: "docs"
+
+navbar:
+  title: "Sarah M. Coleman, Ph.D."
+  left:
+    - href: index.html
+      text: Home
+    - href: cv.html
+      text: Resume/CV
+    - href: papers.html
+      text: Publications
+    - href: about.html
+      text: About Me
+
+output:
+  html_document:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+

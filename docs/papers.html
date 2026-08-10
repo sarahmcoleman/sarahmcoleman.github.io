@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Publications</title>
+
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Sarah M. Coleman, Ph.D.</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv.html">Resume/CV</a>
+</li>
+<li>
+  <a href="papers.html">Publications</a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#original-research-articles"
+id="toc-original-research-articles">Original research articles</a></li>
+<li><a href="#preprints" id="toc-preprints">Preprints</a></li>
+<li><a href="#research-review-articles"
+id="toc-research-review-articles">Research review articles</a></li>
+</ul>
+</div>
+
+<p>Below is a list of peer-reviewed publications and preprints authored
+by Sarah M. Coleman. Co-first authorship is indicated by an asterisk
+(*), and Sarah’s name appears in bold font. Publications are first
+ordered by article type, then authorship order, and finally year.</p>
+<div id="original-research-articles" class="section level3">
+<h3>Original research articles</h3>
+<ol style="list-style-type: decimal">
+<li><p><strong>Coleman, S. M.</strong>, &amp; Peng, R. D. (2026). Do
+ozone action day alerts modulate active transportation in Texas cities?
+<em>Environmental Research Communications</em>. <a
+href="https://doi.org/10.1088/2515-7620/ae2e99"
+class="uri">https://doi.org/10.1088/2515-7620/ae2e99</a></p></li>
+<li><p><strong>Coleman, S. M.*</strong>, Marx, R. J.*, Martinez, M. K.,
+Silvera, A. J., Park, J., Ramanan, E., Kaown, G., Yoon, S., Xie, D.,
+&amp; Alper, H. S. (2024). Considerations Regarding High Oil Density
+Bioreactor-Scale Fermentations of <em>Yarrowia lipolytica</em> Using CFD
+Modeling and Experimental Validation. <em>Biotechnology Journal</em>,
+<em>19</em>(12), e202400506. <a
+href="https://doi.org/10.1002/biot.202400506"
+class="uri">https://doi.org/10.1002/biot.202400506</a></p></li>
+<li><p><strong>Coleman, S. M.*</strong>, Cordova, L. T.*, Lad, B. C.,
+Ali, S. A., Ramanan, E., Collett, J. R., &amp; Alper, H. S. (2023).
+Evolving tolerance of <em>Yarrowia lipolytica</em> to hydrothermal
+liquefaction aqueous phase waste. <em>Applied Microbiology and
+Biotechnology</em>. <a href="https://doi.org/10.1007/s00253-023-12393-8"
+class="uri">https://doi.org/10.1007/s00253-023-12393-8</a></p></li>
+<li><p>Partipilo, G.*, <strong>Coleman, S. M.*</strong>, Holwerda, A.
+J., Gao, Y., Mahfoud, I. E. M., Wilke, C. O., Alper, H. S., &amp; Keitz,
+B. K. (2026). A Linear Mixed Effects Model for Evaluating Synthetic Gene
+Circuits. <em>ACS Synthetic Biology</em>. <a
+href="https://doi.org/10.1021/acssynbio.6c00171"
+class="uri">https://doi.org/10.1021/acssynbio.6c00171</a></p></li>
+<li><p>Gordiichuk, P., <strong>Coleman, S.</strong>, Zhang, G., Kuehne,
+M., Lew, T. T. S., Park, M., Cui, J., Brooks, A. M., Hudson, K.,
+Graziano, A. M., Marshall, D. J. M., Karsan, Z., Kennedy, S., &amp;
+Strano, M. S. (2021). Augmenting the living plant mesophyll into a
+photonic capacitor. <em>Science Advances</em>, <em>7</em>(37), eabe9733.
+<a href="https://doi.org/10.1126/sciadv.abe9733"
+class="uri">https://doi.org/10.1126/sciadv.abe9733</a></p></li>
+<li><p>Gordillo Sierra, A. R., Yook, S., <strong>Coleman, S.</strong>,
+Bansal, M., &amp; Alper, H. S. (2025). Developing a <em>Yarrowia
+lipolytica</em> platform for conversion of mannitol-containing waste
+streams. <em>Bioresource Technology</em>, 133161. <a
+href="https://doi.org/10.1016/j.biortech.2025.133161"
+class="uri">https://doi.org/10.1016/j.biortech.2025.133161</a></p></li>
+<li><p>Presnell, K. V., Melhem, O., <strong>Coleman, S. M.</strong>,
+Morse, N. J., &amp; Alper, H. S. (2024). Design and synthesis of
+synthetic promoters for consistency of gene expression across growth
+phases and scale in <em>S. cerevisiae</em>. <em>Synthetic and Systems
+Biotechnology</em>. <a
+href="https://doi.org/10.1016/j.synbio.2024.03.004"
+class="uri">https://doi.org/10.1016/j.synbio.2024.03.004</a></p></li>
+<li><p>Qin, J., Liu, N., Abid, U., <strong>Coleman, S. M.</strong>,
+Wang, Y., Fu, Q., Yoon, S., Alper, H. S., &amp; Xie, D. (2025).
+Metabolic Engineering of <em>Yarrowia lipolytica</em> for Conversion of
+Waste Cooking Oil into Omega-3 Eicosapentaenoic Acid. <em>ACS
+Engineering Au</em>, <em>5</em>(2), 128–139. <a
+href="https://doi.org/10.1021/acsengineeringau.4c00053"
+class="uri">https://doi.org/10.1021/acsengineeringau.4c00053</a></p></li>
+<li><p>Yuan, S.-F., Nair, P. H., Borbon, D., <strong>Coleman, S.
+M.</strong>, Fan, P.-H., Lin, W.-L., &amp; Alper, H. S. (2022).
+Metabolic engineering of <em>E. coli</em> for β-alanine production using
+a multi-biosensor enabled approach. <em>Metabolic Engineering</em>. <a
+href="https://doi.org/10.1016/j.ymben.2022.08.012"
+class="uri">https://doi.org/10.1016/j.ymben.2022.08.012</a></p></li>
+<li><p>Marsan, C. B., Lee, S. G., Nguyen, A., Sierra, A. R. G.,
+<strong>Coleman, S. M.</strong>, Brooks, S. M., &amp; Alper, H. S.
+(2024). Leveraging a <em>Y. lipolytica</em> naringenin chassis for
+biosynthesis of apigenin and associated glucoside. <em>Metabolic
+Engineering</em>, <em>83</em>, 1–11. <a
+href="https://doi.org/10.1016/j.ymben.2024.02.018"
+class="uri">https://doi.org/10.1016/j.ymben.2024.02.018</a></p></li>
+<li><p>Graham, A. J., Partipilo, G., Dundas, C. M., Miniel Mahfoud, I.
+E., Halwachs, K. N., Holwerda, A. J., Simmons, T. R., FitzSimons, T. M.,
+<strong>Coleman, S. M.</strong>, Rinehart, R., Chiu, D., Tyndall, A. E.,
+Sajbel, K. C., Rosales, A. M., &amp; Keitz, B. K. (2024).
+Transcriptional regulation of living materials via extracellular
+electron transfer. <em>Nature Chemical Biology</em>, 1–12. <a
+href="https://doi.org/10.1038/s41589-024-01628-y"
+class="uri">https://doi.org/10.1038/s41589-024-01628-y</a></p></li>
+</ol>
+</div>
+<div id="preprints" class="section level3">
+<h3>Preprints</h3>
+<ol start="12" style="list-style-type: decimal">
+<li><strong>Coleman, S. M.</strong>, Zhang, H. S., Lucchesi, L. R.,
+&amp; Roy, S. (2026). Exploring the periodicity of flight patterns.
+<em>arXiv.</em> <a href="https://doi.org/10.48550/arXiv.2606.00128"
+class="uri">https://doi.org/10.48550/arXiv.2606.00128</a></li>
+</ol>
+</div>
+<div id="research-review-articles" class="section level3">
+<h3>Research review articles</h3>
+<ol start="13" style="list-style-type: decimal">
+<li><p>Soong, Y.-H. V.*, <strong>Coleman, S. M.*</strong>, Liu, N., Qin,
+J., Lawton, C., Alper, H. S., &amp; Xie, D. (2023). Using oils and fats
+to replace sugars as feedstocks for biomanufacturing: Challenges and
+opportunities for the yeast <em>Yarrowia lipolytica</em>.
+<em>Biotechnology Advances</em>, 108128. <a
+href="https://doi.org/10.1016/j.biotechadv.2023.108128"
+class="uri">https://doi.org/10.1016/j.biotechadv.2023.108128</a></p></li>
+<li><p>Lad, B. C.*, <strong>Coleman, S. M.*</strong>, &amp; Alper, H. S.
+(2021). Microbial valorization of underutilized and nonconventional
+waste streams. <em>Journal of Industrial Microbiology and
+Biotechnology</em>. <a href="https://doi.org/10.1093/jimb/kuab056"
+class="uri">https://doi.org/10.1093/jimb/kuab056</a></p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
