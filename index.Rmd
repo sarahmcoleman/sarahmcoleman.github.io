@@ -1,5 +1,5 @@
 ---
-title: "Sarah M. Coleman, Ph.D."
+title: "Sarah M. Coleman, PhD"
 output: html_document
 ---
 
@@ -7,16 +7,44 @@ output: html_document
 <style>
 .two-column {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 30px;
+  text-align: left;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.two-column .image-column {
+  flex: 0 0 30%;
+}
+
+.two-column .image-column img {
+  width: 100%;
+  height: auto;
+}
+
+.two-column .caption {
+  margin-top: 8px;
+  text-align: left;
+  font-size: 0.9em;
+  border: none;
+  box-shadow: none;
+  background: none;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .two-column .text {
-  flex: 0 0 60%;
-}
-
-.two-column .image {
   flex: 1;
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+
+  /* Keep words intact */
+  word-break: keep-all !important;
+  overflow-wrap: normal !important;
+  hyphens: none !important;
 }
 </style>
 ```
@@ -25,16 +53,25 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-::::: two-column
-::: image
+:::::: two-column
+:::: image-column
 ```{r, echo=FALSE}
-knitr::include_graphics("images/clipboard-2148760574.png")
+      knitr::include_graphics("images/Sarah_Coleman_Photo.jpg")
 ```
+
+::: caption
 :::
+::::
 
 ::: text
-Welcome to my personal website! I'm currently a Postdoctoral Fellow in Statistics and Data Sciences at the University of Texas at Austin. I have a PhD in Chemical Engineering, and a Masters in Statistics, both from UT Austin. Broadly, I'm interested in research at the intersection of engineering, life sciences, and statistics.
+Welcome to my personal website!
 
-To contact me, please email me: [sarahmcoleman.phd [at] gmail [dot] com](mailto:sarahmcoleman.phd%40gmail.com). You can also find me on [GitHub](https://github.com/sarahmcoleman), [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ), [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) and [ORCID](https://orcid.org/0000-0002-0243-9776).
+I have a PhD in Chemical Engineering, and a Masters in Statistics, both from UT Austin. I have hands-on experience in metabolic engineering, synthetic biology, bioprocess development, statistical modeling, and bioinformatics. I have a Bachelor's in Chemical-Biological Engineering from MIT. Broadly, I'm interested in research at the intersection of engineering, life sciences, and statistics.
+
+[Email](mailto:sarahmcoleman.phd%40gmail.com)\
+[GitHub](https://github.com/sarahmcoleman)\
+[Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ)\
+[LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127)\
+[ORCID](https://orcid.org/0000-0002-0243-9776)
 :::
-:::::
+::::::
