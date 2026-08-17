@@ -7,12 +7,12 @@ navbar:
   left:
     - href: index.html
       text: Home
-    - href: papers.html
-      text: Publications
     - href: cv.html
       text: Resume/CV
     - href: cv.pdf
       text: Resume/CV (pdf)
+    - href: papers.html
+      text: Publications
 
 output:
   html_document:

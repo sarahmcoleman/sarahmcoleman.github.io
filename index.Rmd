@@ -64,9 +64,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ::::
 
 ::: text
-Welcome to my personal website!
+I'm a biochemical engineer working at the interface of experimental biology, bioprocess engineering, and data science. My background spans strain and fermentation process development, multi-omics analysis, and statistical modeling, with experience across academic (UT Austin, MIT), pharma (BMS, Takeda), and startup (BioReNuva) environments.
 
-I have a PhD in Chemical Engineering, and a Masters in Statistics, both from UT Austin. I have hands-on experience in metabolic engineering, synthetic biology, bioprocess development, statistical modeling, and bioinformatics. I have a Bachelor's in Chemical-Biological Engineering from MIT. Broadly, I'm interested in research at the intersection of engineering, life sciences, and statistics.
+I'm currently looking for a full-time position in the SF area starting Fall or Winter 2026. 
 
 [Email](mailto:sarahmcoleman.phd%40gmail.com)\
 [GitHub](https://github.com/sarahmcoleman)\

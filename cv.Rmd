@@ -19,11 +19,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Austin, TX \| [Email](mailto:sarahmcoleman.phd@gmail.com) \| [GitHub](https://github.com/sarahmcoleman) \| [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) \| [Website](https://sarahmcoleman.github.io/) \| [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ)
+Austin, TX → San Francisco, CA (relocating Fall/Winter 2026)
+
+[Email](mailto:sarahmcoleman.phd@gmail.com) \| [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) \| [Website](https://sarahmcoleman.github.io/) \| [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ) \| [GitHub](https://github.com/sarahmcoleman)
 
 ## Summary
 
-Biochemical engineer with experience in yeast, bacterial and mammalian systems, bioprocess development, and fermentation-based workflows. Strong computational background in statistical modeling and multi-omics analysis, enabling data-driven optimization of biological systems. Interested in developing and scaling biological processes to solve real-world, high-impact problems through integrated experimental and computational approaches.
+Biochemical engineer working at the interface of experimental biology, bioprocess engineering, and data science. Background spans strain and fermentation process development, multi-omics analysis, and statistical modeling, with experience across academic (UT Austin, MIT), pharma (BMS, Takeda), and startup (BioReNuva) environments.
 
 ## Education
 
@@ -38,31 +40,31 @@ Biochemical engineer with experience in yeast, bacterial and mammalian systems, 
 
 ## Technical Skills
 
-- **Molecular & Cellular Biology:** Mammalian and microbial cell culture, CRISPR genome editing, Golden Gate assembly, bacterial and yeast strain engineering, adaptive laboratory evolution, qPCR, flow cytometry, protein expression & purification, Western blotting
-- **Bioprocessing & High-Throughput Experimentation:** Batch and fed-batch fermentation, 3 L bioreactors, 96-well plate screening, assay development, high-throughput screening workflows, experimental optimization
-- **Computational Biology & Data Science:** Python (pandas, NumPy, scikit-learn), R (tidyverse), SQL, statistical modeling, machine learning, mixed-effects models, experimental design (DoE), reproducible data analysis, multi-omics analysis (RNA-seq, metabolomics, variant analysis), pathway & enrichment analysis
-- **Bioinformatics & HPC Workflow Engineering:** RNA-seq processing (QC, alignment, differential expression), omics data workflows, high-performance computing (TACC), containerized bioinformatics pipelines (BioContainers, Docker), version-controlled workflows (Git/GitHub)
-- **Analytical Chemistry & Instrumentation:** HPLC, LC-MS, GC-MS, UV-Vis, microscopy, rheology
-- **Software, Engineering & Reproducibility Tools:** Linux/Unix, Bash, Git/GitHub, Jupyter, Quarto, LaTeX, workflow automation, computational reproducibility practices
+- **Computational Biology & Data Science**: Python (pandas, NumPy, scikit-learn), R (tidyverse), SQL, statistical modeling, machine learning, experimental design (DoE), reproducible data analysis, multi-omics analysis (RNA-seq, metabolomics, variant analysis), pathway & enrichment analysis
+- **Molecular & Cellular Biology**: Yeast, bacterial and mammalian cell culture, aseptic technique, cGLP practices, CRISPR genome editing, Golden Gate assembly, strain engineering, directed/adaptive laboratory evolution, qPCR, flow cytometry, protein expression & purification, Western blotting
+- **Bioprocessing & High-Throughput Experimentation**: Batch and fed-batch fermentation, bioreactor operation and control, DeltaV software, ELN software, 96-well plate screening, assay development, high-throughput screening workflows Bioinformatics & HPC
+- **Workflow Engineering**: RNA-seq workflows (QC, alignment, differential expression), omics data workflows, high-performance computing (TACC), containerized pipelines (BioContainers, Docker), version-controlled workflows (Git/GitHub)
+- **Analytical Chemistry & Instrumentation**: HPLC, LC-MS, GC-MS, UV-Vis, microscopy, rheology
+- **Software & Reproducibility Tools**: Linux/Unix, Bash, Git/GitHub, Jupyter, Quarto, LaTeX, workflow automation
 
 ## Work Experience
 
 **BioReNuva** — Austin, TX\
-*Bioprocess Development Engineer* \| Jun 2026 – Present
+*Bioprocess Development Engineer* (Contract/Fixed-term) \| Jun 2026 – Present
 
-- Leading development and optimization of a 7.5L bioreactor fermentation process for rhamnolipid production using attenuated *Pseudomonas aeruginosa* strains
-- Establishing production timelines, identifying process bottlenecks, and defining key performance indicators (KPIs) for rhamnolipid synthesis
-- Analyzing fermentation data and experimental results to support process characterization, troubleshooting, and continuous improvement initiatives
-- Supporting technology transfer activities by developing process documentation, communicating critical process parameters, and facilitating knowledge transfer from development to manufacturing teams
+- Engaged as subject-matter expert to establish fed-batch fermentation capability for glycolipid production using attenuated *Pseudomonas aeruginosa* strains, building on prior collaboration with the Alper Lab
+- Designed and implemented the company's first fed-batch bioreactor process from scratch, including feed strategy, control parameters, and run protocols
+- Authored the standard operating procedure (SOP) for bioreactor runs, establishing the reference process documentation used for ongoing and future fermentation campaigns
+- Defined key performance indicators (KPIs) and identified process bottlenecks for glycolipid synthesis, informing the roadmap for scale-up and continuous improvement
+- Led technology transfer activities, translating process knowledge into documentation and protocols to hand off from development to manufacturing teams
 
 **The University of Texas at Austin** — Austin, TX\
-*Postdoctoral Research Fellow, Statistics and Data Sciences* \| Oct 2024 – Present\
+*Postdoctoral Research Fellow, Statistics and Data Sciences* \| Oct 2024 – Sep 2026\
 Research Advisor: Dr. Roger D. Peng
 
 - Developed epidemiological and statistical models quantifying the impact of industrial air pollution mixtures on excess mortality, identifying key sector-level risk drivers
 - Modeled behavioral responses to air quality alerts to quantify pedestrian exposure-avoidance behavior under pollution events
 - Advised medical faculty on statistical methodology and experimental design in recurring data science workshops
-- Authored 2 first-author publications (including one preprint) with another in preparation
 
 *Lecturer, Statistics and Data Sciences* \| Jan 2026 – Apr 2026
 
@@ -73,13 +75,11 @@ Research Advisor: Dr. Roger D. Peng
 *Graduate Student Fellow, Chemical Engineering* \| Aug 2019 – Aug 2024\
 Research Advisor: Dr. Hal S. Alper
 
-- Engineered *Yarrowia lipolytica* for enhanced conversion of waste cooking oil into long-chain fatty alcohols, improving lipid hydrolysis and reducing industrial waste buildup
 - Integrated CFD modeling with fermentation experiments to characterize and optimize bioreactor performance in high oil density 3L bioreactor systems
-- Evaluated the native alkane metabolism of twenty yeasts in or near the *Yarrowia* clade for their potential to biotransform oil substrates
 - Evolved *Y. lipolytica* to convert industrial biomass waste into the high-value polyketides triacetic acid lactone and simultaneously reduce COD (Chemical Oxygen Demand)
-- Developed CRISPR-based genome editing system using Golden Gate assembly for targeted engineering of *Y. lipolytica*, and used this system to screen a native promoter library
+- Engineered *Yarrowia lipolytica* for enhanced conversion of waste cooking oil into long-chain fatty alcohols, improving lipid hydrolysis and reducing industrial waste buildup
+- Developed a CRISPR-based genome editing system using Golden Gate assembly for targeted engineering of *Y. lipolytica*, and used this system to screen a native promoter library
 - Proposed and validated a statistical model to quantitatively evaluate the performance of biological Boolean logic gates for the first time
-- Authored 11 publications as a graduate student, with 5 at the first or co-first authorship level
 
 **MathWorks** — Remote (Natick, MA)\
 *MATLAB Student Ambassador* \| Mar 2020 – Jul 2021
@@ -91,9 +91,8 @@ Research Advisor: Dr. Hal S. Alper
 *Advanced Undergraduate Researcher* \| Sep 2018 – Aug 2019\
 Research Advisor: Dr. Michael S. Strano
 
-- Developed a method of nanophosphor size sorting to improve the capacitance of a light emitting plant
+- Developed a method of nanophosphor size sorting to improve the capacitance of nanoparticles infiltrated into a light emitting plant
 - Tested the influence of nanoparticle infiltration on chlorophyll concentration and photosynthetic ability
-- Work resulted in second author publication in *Science Advances*
 
 *Undergraduate Researcher* \| Sep 2016 – Aug 2018\
 Research Advisor: Dr. Gregory Stephanopoulos
@@ -103,7 +102,7 @@ Research Advisor: Dr. Gregory Stephanopoulos
 **Bristol Myers Squibb** — Devens, MA\
 *Intern, Upstream Process Development (Biologics)* \| Jun 2018 – Aug 2018
 
-- Designed and executed metabolite-controlled fed-batch fermentation experiments to systematically evaluate monoclonal antibody production performance
+- Designed and executed metabolite-controlled fed-batch fermentation experiments to systematically evaluate monoclonal antibody production performance in mammalian cell lines
 - Analyzed upstream bioprocess data to identify conditions that improved yield stability and process robustness in biologics production
 - Supported experimental iteration cycles for process optimization in a regulated biomanufacturing environment
 
@@ -116,7 +115,7 @@ Research Advisor: Dr. Gregory Stephanopoulos
 **Girl’s Angle Math Club** — Cambridge, MA\
 *Math Mentor* \| Sep 2016 – Apr 2018
 
-- Mentored students weekly in advanced mathematical reasoning with emphasis on structured problem-solving and analytical rigor
+- Mentored students weekly in advanced mathematical reasoning with emphasis on structured problem-solving and analytical thought processes
 
 ## Select Honors and Awards
 
@@ -132,38 +131,10 @@ Research Advisor: Dr. Gregory Stephanopoulos
 - **Individual Accomplishment Citation, MIT Department of Chemical Engineering**, 2018 & 2019\
   Only known undergraduate to win this award two years in a row, for academic and volunteer accomplishments
 
-## Peer-Reviewed Publications
-
-In reverse chronological order. An asterisk (\*) indicates co-first authorship.
+## Select Publications
 
 1.  Partipilo, G.\**,* **Coleman, S. M.\***, Holwerda, A. J., Gao, Y., Mahfoud, I. E. M., Wilke, C. O., Alper, H. S., & Keitz, B. K. (2026). A Linear Mixed Effects Model for Evaluating Synthetic Gene Circuits. *ACS Synthetic Biology*. <https://doi.org/10.1021/acssynbio.6c00171>
 
-2.  **Coleman, S. M.**, & Peng, R. D. (2026). Do ozone action day alerts modulate active transportation in Texas cities? *Environmental Research Communications*. <https://doi.org/10.1088/2515-7620/ae2e99>
+2.  **Coleman, S. M.\****,* Marx, R. J.\*, Martinez, M. K., Silvera, A. J., Park, J., Ramanan, E., Kaown, G., Yoon, S., Xie, D., & Alper, H. S. (2024). Considerations Regarding High Oil Density Bioreactor-Scale Fermentations of *Yarrowia lipolytica* Using CFD Modeling and Experimental Validation. *Biotechnology Journal*, *19*(12), e202400506. <https://doi.org/10.1002/biot.202400506>
 
-3.  Gordillo Sierra, A. R., Yook, S., **Coleman, S.**, Bansal, M., & Alper, H. S. (2025). Developing a *Yarrowia lipolytica* platform for conversion of mannitol-containing waste streams. *Bioresource Technology,* 133161. <https://doi.org/10.1016/j.biortech.2025.133161>
-
-4.  Qin, J., Liu, N., Abid, U., **Coleman, S. M.**, Wang, Y., Fu, Q., Yoon, S., Alper, H. S., & Xie, D. (2025). Metabolic Engineering of *Yarrowia lipolytica* for Conversion of Waste Cooking Oil into Omega-3 Eicosapentaenoic Acid. *ACS Engineering Au*, *5*(2), 128–139. <https://doi.org/10.1021/acsengineeringau.4c00053>
-
-5.  **Coleman, S. M.\****,* Marx, R. J.\*, Martinez, M. K., Silvera, A. J., Park, J., Ramanan, E., Kaown, G., Yoon, S., Xie, D., & Alper, H. S. (2024). Considerations Regarding High Oil Density Bioreactor-Scale Fermentations of *Yarrowia lipolytica* Using CFD Modeling and Experimental Validation. *Biotechnology Journal*, *19*(12), e202400506. <https://doi.org/10.1002/biot.202400506>
-
-6.  Presnell, K. V., Melhem, O., **Coleman, S. M**., Morse, N. J., & Alper, H. S. (2024). Design and synthesis of synthetic promoters for consistency of gene expression across growth phases and scale in *S. cerevisiae*. *Synthetic and Systems Biotechnology*. <https://doi.org/10.1016/j.synbio.2024.03.004>
-
-7.  Marsan, C. B., Lee, S. G., Nguyen, A., Sierra, A. R. G., **Coleman, S. M.**, Brooks, S. M., & Alper, H. S. (2024). Leveraging a *Y. lipolytica* naringenin chassis for biosynthesis of apigenin and associated glucoside. *Metabolic Engineering*, 83, 1–11. <https://doi.org/10.1016/j.ymben.2024.02.018>
-
-8.  Graham, A. J., Partipilo, G., Dundas, C. M., Miniel Mahfoud, I. E., Halwachs, K. N., Holwerda, A. J., Simmons, T. R., FitzSimons, T. M., **Coleman, S. M.**, Rinehart, R., Chiu, D., Tyndall, A. E., Sajbel, K. C., Rosales, A. M., & Keitz, B. K. (2024). Transcriptional regulation of living materials via extracellular electron transfer. *Nature Chemical Biology*, 1–12. <https://doi.org/10.1038/s41589-024-01628-y>
-
-9.  **Coleman, S. M.\****,* Cordova, L. T.\*, Lad, B. C., Ali, S. A., Ramanan, E., Collett, J. R., & Alper, H. S. (2023). Evolving tolerance of *Yarrowia lipolytica* to hydrothermal liquefaction aqueous phase waste. *Applied Microbiology and Biotechnology*. <https://doi.org/10.1007/s00253-023-12393-8>
-
-10. Soong, Y.-H. V.\*, **Coleman, S. M.\***, Liu, N., Qin, J., Lawton, C., Alper, H. S., & Xie, D. (2023). Using oils and fats to replace sugars as feedstocks for biomanufacturing: Challenges and opportunities for the yeast *Yarrowia lipolytica*. *Biotechnology Advances*, 108128. <https://doi.org/10.1016/j.biotechadv.2023.108128>
-
-11. Yuan, S.-F., Nair, P. H., Borbon, D., **Coleman, S. M.**, Fan, P.-H., Lin, W.-L., & Alper, H. S. (2022). Metabolic engineering of *E. coli* for β-alanine production using a multi-biosensor enabled approach. *Metabolic Engineering*. <https://doi.org/10.1016/j.ymben.2022.08.012>
-
-12. Lad, B. C.\*, **Coleman, S. M.\***, & Alper, H. S. (2021). Microbial valorization of underutilized and nonconventional waste streams. *Journal of Industrial Microbiology and Biotechnology*. <https://doi.org/10.1093/jimb/kuab056>
-
-13. Gordiichuk, P., **Coleman, S.**, Zhang, G., Kuehne, M., Lew, T. T. S., Park, M., Cui, J., Brooks, A. M., Hudson, K., Graziano, A. M., Marshall, D. J. M., Karsan, Z., Kennedy, S., & Strano, M. S. (2021). Augmenting the living plant mesophyll into a photonic capacitor. *Science Advances*, *7*(37), eabe9733. <https://doi.org/10.1126/sciadv.abe9733>
-
-## Preprints/In Preparation
-
-1.  **Coleman, S. M.**, Zhang, H. S., Lucchesi, L. R., & Roy, S. (2026). Exploring the periodicity of flight patterns. *arXiv.* <https://doi.org/10.48550/arXiv.2606.00128>
-
-2.  Martinez, M. K.\*, **Coleman, S. M.\***, Marter, C., Vinod, N., Subramanian, A., & Alper, H. S. Alkane metabolism of yeasts in the *Yarrowia* clade.
+3.  **Coleman, S. M.\****,* Cordova, L. T.\*, Lad, B. C., Ali, S. A., Ramanan, E., Collett, J. R., & Alper, H. S. (2023). Evolving tolerance of *Yarrowia lipolytica* to hydrothermal liquefaction aqueous phase waste. *Applied Microbiology and Biotechnology*. <https://doi.org/10.1007/s00253-023-12393-8>
