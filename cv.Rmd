@@ -6,7 +6,6 @@ output:
     latex_engine: xelatex
     pandoc_args:
       - "--variable=documentclass:article"
-      - "--variable=geometry:margin=0.7in"
       - "--variable=fontsize:10pt"
       - "--variable=linestretch:0.95"
     includes:
@@ -21,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Austin, TX → San Francisco, CA (relocating Fall/Winter 2026)
 
-[Email](mailto:sarahmcoleman.phd@gmail.com) \| [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) \| [Website](https://sarahmcoleman.github.io/) \| [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ) \| [GitHub](https://github.com/sarahmcoleman)
+[sarahmcoleman.phd\@gmail.com](mailto:sarahmcoleman.phd@gmail.com) \| [LinkedIn](https://linkedin.com/in/sarah-m-coleman-b96178127) \| [Website](https://sarahmcoleman.github.io/) \| [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ) \| [GitHub](https://github.com/sarahmcoleman)
 
 ## Summary
 
@@ -45,7 +44,7 @@ Biochemical engineer working at the interface of experimental biology, bioproces
 - **Bioprocessing & High-Throughput Experimentation**: Batch and fed-batch fermentation, bioreactor operation and control, DeltaV software, ELN software, 96-well plate screening, assay development, high-throughput screening workflows Bioinformatics & HPC
 - **Workflow Engineering**: RNA-seq workflows (QC, alignment, differential expression), omics data workflows, high-performance computing (TACC), containerized pipelines (BioContainers, Docker), version-controlled workflows (Git/GitHub)
 - **Analytical Chemistry & Instrumentation**: HPLC, LC-MS, GC-MS, UV-Vis, microscopy, rheology
-- **Software & Reproducibility Tools**: Linux/Unix, Bash, Git/GitHub, Jupyter, Quarto, LaTeX, workflow automation
+- **Software & Reproducibility Tools**: Linux/Unix, Bash, Git/GitHub, Jupyter, Quarto, LaTeX
 
 ## Work Experience
 
@@ -130,11 +129,3 @@ Research Advisor: Dr. Gregory Stephanopoulos
 
 - **Individual Accomplishment Citation, MIT Department of Chemical Engineering**, 2018 & 2019\
   Only known undergraduate to win this award two years in a row, for academic and volunteer accomplishments
-
-## Select Publications
-
-1.  Partipilo, G.\**,* **Coleman, S. M.\***, Holwerda, A. J., Gao, Y., Mahfoud, I. E. M., Wilke, C. O., Alper, H. S., & Keitz, B. K. (2026). A Linear Mixed Effects Model for Evaluating Synthetic Gene Circuits. *ACS Synthetic Biology*. <https://doi.org/10.1021/acssynbio.6c00171>
-
-2.  **Coleman, S. M.\****,* Marx, R. J.\*, Martinez, M. K., Silvera, A. J., Park, J., Ramanan, E., Kaown, G., Yoon, S., Xie, D., & Alper, H. S. (2024). Considerations Regarding High Oil Density Bioreactor-Scale Fermentations of *Yarrowia lipolytica* Using CFD Modeling and Experimental Validation. *Biotechnology Journal*, *19*(12), e202400506. <https://doi.org/10.1002/biot.202400506>
-
-3.  **Coleman, S. M.\****,* Cordova, L. T.\*, Lad, B. C., Ali, S. A., Ramanan, E., Collett, J. R., & Alper, H. S. (2023). Evolving tolerance of *Yarrowia lipolytica* to hydrothermal liquefaction aqueous phase waste. *Applied Microbiology and Biotechnology*. <https://doi.org/10.1007/s00253-023-12393-8>
