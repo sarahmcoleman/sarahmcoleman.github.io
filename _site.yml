@@ -1,0 +1,22 @@
+name: "Sarah M. Coleman, PhD"
+
+output_dir: "docs"
+
+navbar:
+  title: "Sarah M. Coleman, PhD"
+  left:
+    - href: index.html
+      text: Home
+    - href: cv.html
+      text: Resume
+    - href: cv.pdf
+      text: Resume (PDF)
+
+output:
+  html_document:
+    theme: readable
+    css: styles.css
+    includes:
+      in_header: favicon.html
+
+# render by rmarkdown::render_site()

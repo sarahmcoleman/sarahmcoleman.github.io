@@ -1,0 +1,22 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Claude Code local config
+.claude/
+
+# R Markdown build artifacts (root-level intermediates)
+/*_files/
+/*_cache/
+/*.knit.md
+/*.utf8.md
+/cv.tex
+
+# R / RStudio local state
+.Renviron
+.Rapp.history
+
+# macOS
+._*

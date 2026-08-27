@@ -1,0 +1,44 @@
+---
+pagetitle: "Publications | Sarah M. Coleman, PhD"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Below is a list of peer-reviewed publications and preprints authored by Sarah M. Coleman. Co-first authorship is indicated by an asterisk (\*), and Sarah's name appears in bold font. Publications are first ordered by article type, then authorship order, and finally year.
+
+#### Original research articles
+
+1.  **Coleman, S. M.**, & Peng, R. D. (2026). Do ozone action day alerts modulate active transportation in Texas cities? *Environmental Research Communications*. <https://doi.org/10.1088/2515-7620/ae2e99>
+
+2.  **Coleman, S. M.\***, Marx, R. J.\*, Martinez, M. K., Silvera, A. J., Park, J., Ramanan, E., Kaown, G., Yoon, S., Xie, D., & Alper, H. S. (2024). Considerations Regarding High Oil Density Bioreactor-Scale Fermentations of *Yarrowia lipolytica* Using CFD Modeling and Experimental Validation. *Biotechnology Journal*, *19*(12), e202400506. <https://doi.org/10.1002/biot.202400506>
+
+3.  **Coleman, S. M.\***, Cordova, L. T.\*, Lad, B. C., Ali, S. A., Ramanan, E., Collett, J. R., & Alper, H. S. (2023). Evolving tolerance of *Yarrowia lipolytica* to hydrothermal liquefaction aqueous phase waste. *Applied Microbiology and Biotechnology*. <https://doi.org/10.1007/s00253-023-12393-8>
+
+4.  Partipilo, G.\*, **Coleman, S. M.\***, Holwerda, A. J., Gao, Y., Mahfoud, I. E. M., Wilke, C. O., Alper, H. S., & Keitz, B. K. (2026). A Linear Mixed Effects Model for Evaluating Synthetic Gene Circuits. *ACS Synthetic Biology*. <https://doi.org/10.1021/acssynbio.6c00171>
+
+5.  Gordiichuk, P., **Coleman, S.**, Zhang, G., Kuehne, M., Lew, T. T. S., Park, M., Cui, J., Brooks, A. M., Hudson, K., Graziano, A. M., Marshall, D. J. M., Karsan, Z., Kennedy, S., & Strano, M. S. (2021). Augmenting the living plant mesophyll into a photonic capacitor. *Science Advances*, *7*(37), eabe9733. <https://doi.org/10.1126/sciadv.abe9733>
+
+6.  Gordillo Sierra, A. R., Yook, S., **Coleman, S.**, Bansal, M., & Alper, H. S. (2025). Developing a *Yarrowia lipolytica* platform for conversion of mannitol-containing waste streams. *Bioresource Technology*, 133161. <https://doi.org/10.1016/j.biortech.2025.133161>
+
+7.  Presnell, K. V., Melhem, O., **Coleman, S. M.**, Morse, N. J., & Alper, H. S. (2024). Design and synthesis of synthetic promoters for consistency of gene expression across growth phases and scale in *S. cerevisiae*. *Synthetic and Systems Biotechnology*. <https://doi.org/10.1016/j.synbio.2024.03.004>
+
+8.  Qin, J., Liu, N., Abid, U., **Coleman, S. M.**, Wang, Y., Fu, Q., Yoon, S., Alper, H. S., & Xie, D. (2025). Metabolic Engineering of *Yarrowia lipolytica* for Conversion of Waste Cooking Oil into Omega-3 Eicosapentaenoic Acid. *ACS Engineering Au*, *5*(2), 128–139. <https://doi.org/10.1021/acsengineeringau.4c00053>
+
+9.  Yuan, S.-F., Nair, P. H., Borbon, D., **Coleman, S. M.**, Fan, P.-H., Lin, W.-L., & Alper, H. S. (2022). Metabolic engineering of *E. coli* for β-alanine production using a multi-biosensor enabled approach. *Metabolic Engineering*. <https://doi.org/10.1016/j.ymben.2022.08.012>
+
+10. Marsan, C. B., Lee, S. G., Nguyen, A., Sierra, A. R. G., **Coleman, S. M.**, Brooks, S. M., & Alper, H. S. (2024). Leveraging a *Y. lipolytica* naringenin chassis for biosynthesis of apigenin and associated glucoside. *Metabolic Engineering*, *83*, 1–11. <https://doi.org/10.1016/j.ymben.2024.02.018>
+
+11. Graham, A. J., Partipilo, G., Dundas, C. M., Miniel Mahfoud, I. E., Halwachs, K. N., Holwerda, A. J., Simmons, T. R., FitzSimons, T. M., **Coleman, S. M.**, Rinehart, R., Chiu, D., Tyndall, A. E., Sajbel, K. C., Rosales, A. M., & Keitz, B. K. (2024). Transcriptional regulation of living materials via extracellular electron transfer. *Nature Chemical Biology*, 1–12. <https://doi.org/10.1038/s41589-024-01628-y>
+
+#### Preprints
+
+12. **Coleman, S. M.**, Zhang, H. S., Lucchesi, L. R., & Roy, S. (2026). Exploring the periodicity of flight patterns. *arXiv.* <https://doi.org/10.48550/arXiv.2606.00128>
+
+#### Research review articles
+
+13. Soong, Y.-H. V.\*, **Coleman, S. M.\***, Liu, N., Qin, J., Lawton, C., Alper, H. S., & Xie, D. (2023). Using oils and fats to replace sugars as feedstocks for biomanufacturing: Challenges and opportunities for the yeast *Yarrowia lipolytica*. *Biotechnology Advances*, 108128. <https://doi.org/10.1016/j.biotechadv.2023.108128>
+
+14. Lad, B. C.\*, **Coleman, S. M.\***, & Alper, H. S. (2021). Microbial valorization of underutilized and nonconventional waste streams. *Journal of Industrial Microbiology and Biotechnology*. <https://doi.org/10.1093/jimb/kuab056>
