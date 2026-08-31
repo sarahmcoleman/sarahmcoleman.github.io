@@ -18,7 +18,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**San Francisco Bay Area, CA** · Relocating from Austin, TX. Available to start within 30 days, at own expense
+**Open to relocation nationwide** · Available to start within 30 days, at own expense
 
 [sarahmcoleman.phd\@gmail.com](mailto:sarahmcoleman.phd@gmail.com) \| [Website](https://sarahmcoleman.github.io/) \| [LinkedIn](https://www.linkedin.com/in/sarah-m-coleman/) \| [GitHub](https://github.com/sarahmcoleman) \| [Google Scholar](https://scholar.google.com/citations?user=gtfao50AAAAJ) \| [ORCID](https://orcid.org/0000-0002-0243-9776)
 

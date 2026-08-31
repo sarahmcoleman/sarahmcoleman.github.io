@@ -209,7 +209,7 @@ I'm a bioprocess development engineer. My background spans upstream process deve
 
 At BioReNuva I developed the company's first fed-batch bioreactor process and led its transfer to manufacturing. My doctoral work in the Alper lab centered on *Yarrowia lipolytica*: Golden Gate based genome editing and promoter library screening, adaptive laboratory evolution to raise tolerance to industrial waste streams, and CFD-informed scale-up of high-oil-density fermentations. I work across bacterial, yeast, and mammalian cell culture, and I picked up an MS in Statistics alongside the PhD.
 
-I'm relocating to the **San Francisco Bay Area** and am available to start within 30 days.
+I'm **open to relocation nationwide** and am available to start within 30 days.
 
 ```{=html}
 <div class="focus-areas">
