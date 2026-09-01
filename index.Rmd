@@ -209,8 +209,6 @@ My background spans upstream process development, synthetic biology, and metabol
 
 At BioReNuva I developed the company's first fed-batch bioreactor process and led its transfer to manufacturing. My doctoral work in the Alper lab centered on the oleaginous yeast *Yarrowia lipolytica*: I developed Golden Gate based genome editing and promoter library screening, performed adaptive laboratory evolution to raise tolerance to industrial waste streams, and integrated CFD modeling of high-oil-density fermentations. 
 
-I'm **open to relocation nationwide** and am available to start within 30 days.
-
 ```{=html}
 <div class="focus-areas">
   <ul class="chips">
