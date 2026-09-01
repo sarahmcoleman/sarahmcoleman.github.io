@@ -121,7 +121,7 @@ Research Advisor: Dr. Hal S. Alper
 
 ## Publications
 
-14 peer-reviewed publications and preprints, seven as first or co-first author (\* co-first). Selected:
+13 peer-reviewed publications and one preprint, seven as first or co-first author (\* co-first). Selected:
 
 - **Coleman, S. M.**\* et al. High oil density bioreactor-scale fermentations of *Yarrowia lipolytica* using CFD modeling and experimental validation. *Biotechnology Journal* (2024)
 - **Coleman, S. M.**\* et al. Evolving tolerance of *Yarrowia lipolytica* to hydrothermal liquefaction aqueous phase waste. *Applied Microbiology and Biotechnology* (2023)
