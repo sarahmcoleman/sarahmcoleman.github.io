@@ -47,4 +47,4 @@ Below is a list of peer-reviewed publications, preprints, and manuscripts in pre
 
 15. **Coleman, S. M.**, Peng, R. D. Association of Particulate Matter Emission Mixtures with Excess Mortality. Under review at *Environmental Health.*
 16. O'Connor, R.\*, **Coleman, S. M.\***, Ngo, B., Ramanan, E., Kaown, G., Xie, D., & Alper, H.S. Insights into High-Density Waste Cooking Oil Fermentations using a Wild-type and Evolved *Y. lipolytica* strain. Manuscript in preparation.
-17. Martinez, M. K.\*, **Coleman, S. M.**\*, Marter, C., Vinod, N., Subramanian, A., & Alper, H. S. *Alkane metabolism of yeasts in the* Yarrowia *clade.* Manuscript in preparation.
+17. Martinez, M. K.\*, **Coleman, S. M.**\*, Marter, C., Vinod, N., Subramanian, A., & Alper, H. S. Alkane metabolism of yeasts in the *Yarrowia* clade*.* Manuscript in preparation.
