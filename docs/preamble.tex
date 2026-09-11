@@ -12,13 +12,16 @@
 \tolerance=2000
 \emergencystretch=3em
 
-\setlist[itemize]{noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt}
+\setlist[itemize]{noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt, beginpenalty=10000}
 
-% Tighten space around section headings
-\titlespacing*{\section}{0pt}{7pt}{2pt}
-\titlespacing*{\subsection}{0pt}{5pt}{1pt}
+% Moderate space around section headings
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
 
 \setlength{\parskip}{0pt}
 \setlength{\parindent}{0pt}
 
 \linespread{0.97}
+
+% Never split a short paragraph (employer + title) across a page break
+\clubpenalty=10000
+\widowpenalty=10000

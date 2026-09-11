@@ -23,3 +23,6 @@
 
 # Archived files
 archive/
+
+# Private CV variant: local only, never published or committed
+/_cv-computational.*

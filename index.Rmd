@@ -130,13 +130,36 @@ output: html_document
   border-left-color: #33608c;
 }
 
+.chip-group {
+  margin: 0 0 4px 0;
+}
+
+.chip-group-label {
+  margin: 12px 0 6px 0;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6b7a89;
+}
+
+.chip-group:first-child .chip-group-label {
+  margin-top: 0;
+}
+
+/* Highlight text stays in the page so search engines and text tools can read it;
+   hidden via a class (not the hidden attribute, which reader-mode tools strip). */
+.chip-hl {
+  display: none;
+}
+
 /* ===== Links row ===== */
 
 .linkrow {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px 20px;
+  gap: 10px 16px;
   margin-top: 24px;
   padding-top: 18px;
   border-top: 1px solid #e4e4e4;
@@ -205,43 +228,64 @@ knitr::opts_chunk$set(echo = TRUE)
 ::::
 
 ::: text
-My background spans upstream process development, synthetic biology, and metabolic engineering, coupled with a deep understanding of statistics/bioinformatics. I have research experience across biopharma (Bristol Myers Squibb, Takeda), academic (UT Austin, MIT), and startup (BioReNuva) environments. I have worked across bacterial, yeast, and mammalian cell lines.
+My background spans upstream process development, synthetic biology, and metabolic engineering, coupled with graduate training in statistics (MS) and bioinformatics. I have research experience across biopharma (Bristol Myers Squibb, Takeda), academic (UT Austin, MIT), and startup (BioReNuva) environments. I have worked across bacterial, yeast, and mammalian cell culture.
 
-At BioReNuva I developed the company's first bioreactor fermentation process and led its transfer to manufacturing. My doctoral work in the Alper lab centered on the oleaginous yeast *Yarrowia lipolytica*: I developed Golden Gate based genome editing and promoter library screening, performed adaptive laboratory evolution to raise tolerance to industrial waste streams, and integrated CFD modeling of high-oil-density fermentations. 
+At BioReNuva I developed the company's first bioreactor fermentation process and led its transfer to manufacturing. My doctoral work in the Alper lab centered on the oleaginous yeast *Yarrowia lipolytica*: I developed Golden Gate based genome editing and promoter library screening, performed adaptive laboratory evolution to raise tolerance to industrial waste streams, and integrated CFD modeling of high-oil-density fermentations.
 
 ```{=html}
 <div class="focus-areas">
-  <ul class="chips">
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Developed BioReNuva's first bioreactor fermentation process, from initial design through to routine production runs. Interned in upstream process development at Bristol Myers Squibb, running metabolite-controlled fed-batch experiments for monoclonal antibody production in mammalian cell lines, and at Takeda, optimizing cell culture conditions for a next-generation vaccine manufacturing system.">Upstream process development</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Contrasted simulated three-phase bioreactors at both 3&nbsp;L bench and 4,000&nbsp;L pilot scale using CFD (Ansys CFX, multiphase MUSIG), measuring the interfacial tension and viscosity needed to parameterize the models and tracking how oxygen transfer, gas holdup, and Reynolds number shift with oil loading. Validated the bench scale experimentally, running <em>Y. lipolytica</em> fermentations at up to 50% (v/v) waste cooking oil, among the highest substrate loadings in the published literature.">Bioreactor scale-up</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Led technology transfer at BioReNuva, handing the process from development over to the manufacturing team.">Tech transfer</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Trained in the Alper lab at UT Austin engineering <em>Y. lipolytica</em> to turn waste streams into higher-value products such as polyketides, long-chain fatty alcohols, and lipids. Co-author on two papers in <em>Metabolic Engineering</em>, covering pathway engineering in <em>Y. lipolytica</em> and multi-biosensor-guided production in <em>E. coli</em>.">Metabolic engineering</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Built a genome-editing system using Type IIS Golden Gate assembly for <em>Y. lipolytica</em>, integrated cassettes by split-marker homologous recombination into selectable loci, and quantified promoter strength by spectral flow cytometry against RNA-seq transcript abundance. Co-first author on a linear mixed-effects framework for evaluating synthetic gene circuits in <em>ACS Synthetic Biology</em>, validated against synthetic data, published data, and our own two- and three-input logic gates, with sample-size guidelines for experimentalists and a web app for other researchers.">Synthetic biology</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Ran adaptive laboratory evolution campaigns of 144 and 244 generations that raised <em>Y. lipolytica</em> tolerance to hydrothermal liquefaction wastewater from 10% to 30% (v/v). One evolved isolate reached a nearly 3-fold increase in triacetic acid lactone titer while reducing the chemical oxygen demand of the waste stream, and whole-genome variant analysis traced candidate causal mutations.">Laboratory evolution</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Bacterial and yeast work across <em>Yarrowia</em>, <em>Saccharomyces cerevisiae</em>, <em>E. coli</em>, <em>Pseudomonas</em>, and <em>Moorella thermoacetica</em>, covering strain engineering, electroporation, aseptic technique, anaerobic assay development, and growth quantification by optical density, dry cell weight, and automated cell counting.">Bacterial &amp; yeast culture</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Mammalian cell culture for biologics at Bristol Myers Squibb and for vaccine production at Takeda, both in regulated (cGLP) process development environments.">Mammalian cell culture</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Built RNA-seq and Tag-seq pipelines end to end using cutadapt, STAR, HTSeq, and DESeq2, plus genomic variant calling with bowtie2 and samtools, genome annotation with AUGUSTUS, orthology by BLAST, functional enrichment through DAVID, and protein structure prediction with AlphaFold2. Run on TACC's high-performance computing systems.">Bioinformatics</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Factorial screens crossing nitrogen source, nitrogen concentration, and substrate loading while optimizing media for a yeast alkane assimilation panel, analyzed by three-way ANOVA with post-hoc correction; mixed-effects and growth-curve models; PCA over fermentation and omics data.">Design of experiments</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="MS in Statistics concurrent with the PhD, followed by two years of postdoctoral work in environmental biostatistics at UT Austin with Dr. Roger Peng, building epidemiological and statistical models of large environmental-health datasets and advising medical faculty on statistical methodology and experimental design.">Biostatistics</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Developed and validated a plate-reader lipase-activity assay tracking 4-nitrophenol release, and chemical oxygen demand quantification for wastewater bioremediation.">Assay development</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="HPLC with refractive-index and UV detection, used to quantify triacetic acid lactone alongside the acetic, butyric, and propionic acids in wastewater fermentations; GC-MS with FAME derivatization for fatty acid profiling; LC-MS/MS for targeted metabolomics; plus rheometry, goniometry, and chemical oxygen demand and enzyme-activity assays.">HPLC &amp; GC-MS</button></li>
-    <li><button type="button" class="chip" aria-pressed="false" data-hl="Python (pandas, NumPy, scikit-learn) and R (tidyverse) for statistical modeling and reproducible analysis, with published code accompanying peer-reviewed work. Taught both to a 100-student data science course as instructor of record. Won first place in the professional division of the JSM Data Challenge Expo, an exploratory analysis competition.">Python &amp; R</button></li>
-  </ul>
+  <div class="chip-groups">
+    <div class="chip-group">
+      <h3 class="chip-group-label">Bioprocess</h3>
+      <ul class="chips">
+        <li><button type="button" class="chip" aria-pressed="false">Upstream process development</button><span class="chip-hl">Developed BioReNuva's first bioreactor fermentation process, from initial design through to routine production runs. Interned in upstream process development at Bristol Myers Squibb, running metabolite-controlled fed-batch experiments for monoclonal antibody production in CHO cell lines, and at Takeda, optimizing Vero cell culture conditions for a next-generation vaccine manufacturing system and running tangential flow filtration (TFF).</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Bioreactor scale-up</button><span class="chip-hl">Contrasted simulated three-phase bioreactors at both 3&nbsp;L bench and 4,000&nbsp;L pilot scale using CFD (Ansys CFX, multiphase MUSIG), measuring the interfacial tension and viscosity needed to parameterize the models and tracking how oxygen transfer, gas holdup, and Reynolds number shift with oil loading. Validated the bench scale experimentally, running <em>Y. lipolytica</em> fermentations at up to 50% (v/v) waste cooking oil, among the highest substrate loadings in the published literature.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Tech transfer</button><span class="chip-hl">Led technology transfer at BioReNuva, handing the process from development over to the manufacturing team.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Mammalian cell culture</button><span class="chip-hl">CHO cell culture for biologics at Bristol Myers Squibb and Vero cell culture for vaccine production at Takeda, both in regulated (cGLP) process development environments.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Assay development</button><span class="chip-hl">Developed and validated a plate-reader lipase-activity assay tracking 4-nitrophenol release, and chemical oxygen demand quantification for wastewater bioremediation.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">HPLC &amp; GC-MS</button><span class="chip-hl">HPLC with refractive-index and UV detection, used to quantify triacetic acid lactone alongside the acetic, butyric, and propionic acids in wastewater fermentations; GC-MS with FAME derivatization for fatty acid profiling; LC-MS/MS for targeted metabolomics; plus rheometry, goniometry, and chemical oxygen demand and enzyme-activity assays.</span></li>
+      </ul>
+    </div>
+    <div class="chip-group">
+      <h3 class="chip-group-label">Synthetic biology &amp; strain engineering</h3>
+      <ul class="chips">
+        <li><button type="button" class="chip" aria-pressed="false">Metabolic engineering</button><span class="chip-hl">Trained in the Alper lab at UT Austin engineering <em>Y. lipolytica</em> to turn waste streams into higher-value products such as polyketides, long-chain fatty alcohols, and lipids. Co-author on two papers in <em>Metabolic Engineering</em>, covering pathway engineering in <em>Y. lipolytica</em> and multi-biosensor-guided production in <em>E. coli</em>.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Synthetic biology</button><span class="chip-hl">Genome editing (Golden Gate assembly, CRISPR). Built a Type IIS Golden Gate system for <em>Y. lipolytica</em>, integrated cassettes by split-marker homologous recombination into selectable loci, and quantified promoter strength by spectral flow cytometry against RNA-seq transcript abundance. Co-first author on a linear mixed-effects framework for evaluating synthetic gene circuits in <em>ACS Synthetic Biology</em>, validated against synthetic data, published data, and our own two- and three-input logic gates, with sample-size guidelines for experimentalists and a web app for other researchers.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Laboratory evolution</button><span class="chip-hl">Ran adaptive laboratory evolution campaigns of 144 and 244 generations that raised <em>Y. lipolytica</em> tolerance to hydrothermal liquefaction wastewater from 10% to 30% (v/v). One evolved isolate reached a nearly 3-fold increase in triacetic acid lactone titer while reducing the chemical oxygen demand of the waste stream, and whole-genome variant analysis traced candidate causal mutations.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Bacterial &amp; yeast culture</button><span class="chip-hl">Bacterial and yeast work across <em>Yarrowia</em>, <em>Saccharomyces cerevisiae</em>, <em>E. coli</em>, <em>Pseudomonas</em>, and <em>Moorella thermoacetica</em>, covering strain engineering, electroporation, aseptic technique, anaerobic assay development, and growth quantification by optical density, dry cell weight, and automated cell counting.</span></li>
+      </ul>
+    </div>
+    <div class="chip-group">
+      <h3 class="chip-group-label">Data &amp; statistics</h3>
+      <ul class="chips">
+        <li><button type="button" class="chip" aria-pressed="false">Bioinformatics</button><span class="chip-hl">Built RNA-seq and Tag-seq pipelines end to end using cutadapt, STAR, HTSeq, and DESeq2, plus genomic variant calling with bowtie2 and samtools, genome annotation with AUGUSTUS, orthology by BLAST, functional enrichment through DAVID, and protein structure prediction with AlphaFold2. Run on TACC's high-performance computing systems.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Biostatistics</button><span class="chip-hl">MS in Statistics concurrent with the PhD, followed by two years of postdoctoral work in environmental biostatistics at UT Austin with Dr. Roger Peng, building epidemiological and statistical models of large environmental-health datasets and advising medical faculty on statistical methodology and experimental design.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Design of experiments</button><span class="chip-hl">Factorial screens crossing nitrogen source, nitrogen concentration, and substrate loading while optimizing media for a yeast alkane assimilation panel, analyzed by three-way ANOVA with post-hoc correction; mixed-effects and growth-curve models; PCA over fermentation and omics data.</span></li>
+        <li><button type="button" class="chip" aria-pressed="false">Python &amp; R</button><span class="chip-hl">Python (pandas, NumPy, scikit-learn) and R (tidyverse) for statistical modeling and reproducible analysis, with published code accompanying peer-reviewed work. Taught both to a 100-student data science course as instructor of record. Won first place in the professional division of the JSM Data Challenge Expo, an exploratory analysis competition.</span></li>
+      </ul>
+    </div>
+    <div class="chip-group">
+      <h3 class="chip-group-label">Leadership</h3>
+      <ul class="chips">
+        <li><button type="button" class="chip" aria-pressed="false">Mentoring</button><span class="chip-hl">Mentored 4 undergraduate researchers and 2 junior PhD students during the PhD, and presented results to project sponsors and collaborators. As instructor of record for a 100-student data science course, managed 3 teaching assistants.</span></li>
+      </ul>
+    </div>
+  </div>
   <div class="chip-detail is-hint" id="chip-detail" aria-live="polite">Hover or tap any focus area for a summary.</div>
 </div>
 
 <div class="linkrow">
-  <a class="resume-btn" href="cv.html">View Resume</a>
+  <a class="resume-btn" href="cv.html">Resume</a>
   <a href="mailto:sarahmcoleman.phd@gmail.com">Email</a>
   <a href="https://www.linkedin.com/in/sarah-m-coleman/">LinkedIn</a>
   <a href="https://github.com/sarahmcoleman">GitHub</a>
+  <a href="papers.html">Publications</a>
   <a href="https://scholar.google.com/citations?user=gtfao50AAAAJ">Google Scholar</a>
-  <a href="https://orcid.org/0000-0002-0243-9776">ORCID</a>
 </div>
 
 <script>
 (function () {
-  var list   = document.querySelector(".focus-areas .chips");
+  var list   = document.querySelector(".focus-areas .chip-groups");
   var detail = document.getElementById("chip-detail");
   if (!list || !detail) return;
 
@@ -252,11 +296,17 @@ At BioReNuva I developed the company's first bioreactor fermentation process and
   var pinned  = null;
   var showing = null;
 
+  // Each chip's highlight lives in the page as a sibling .chip-hl element.
+  function highlightOf(chip) {
+    var hl = chip.parentNode.querySelector(".chip-hl");
+    return hl ? hl.innerHTML : "";
+  }
+
   // Only touch the DOM when the content actually changes.
   function render(chip) {
     if (chip === showing) return;
     showing = chip;
-    detail.innerHTML = chip ? chip.getAttribute("data-hl") : HINT;
+    detail.innerHTML = chip ? highlightOf(chip) : HINT;
     if (chip) detail.classList.remove("is-hint");
     else detail.classList.add("is-hint");
   }
@@ -264,6 +314,12 @@ At BioReNuva I developed the company's first bioreactor fermentation process and
   // Reserve the height of the tallest highlight so the panel never resizes
   // as you move between chips. Recomputed on resize, since wrapping changes.
   function reserveHeight() {
+    // Only needed where hover exists: touch screens have no hover sweep to
+    // flicker, and there a fixed tall panel is just empty space.
+    if (!window.matchMedia || !window.matchMedia("(hover: hover)").matches) {
+      detail.style.minHeight = "";
+      return;
+    }
     var keepHTML = detail.innerHTML;
     var keepHint = detail.classList.contains("is-hint");
     detail.style.minHeight = "";
@@ -271,7 +327,7 @@ At BioReNuva I developed the company's first bioreactor fermentation process and
     // Measure fractionally: offsetHeight rounds to an integer and can under-reserve.
     var tallest = detail.getBoundingClientRect().height;
     for (var i = 0; i < chips.length; i++) {
-      detail.innerHTML = chips[i].getAttribute("data-hl");
+      detail.innerHTML = highlightOf(chips[i]);
       var h = detail.getBoundingClientRect().height;
       if (h > tallest) tallest = h;
     }
@@ -292,8 +348,8 @@ At BioReNuva I developed the company's first bioreactor fermentation process and
     return node && node.closest ? node.closest(".chip") : null;
   }
 
-  // Hover is delegated to the list, so moving from one chip to another
-  // never fires a clear in between. That is what caused the flicker.
+  // Hover is delegated to all groups together, so moving between chips (or
+  // between rows) never fires a clear in between.
   list.addEventListener("mouseover", function (e) {
     var chip = chipFrom(e.target);
     if (chip && !pinned) render(chip);
