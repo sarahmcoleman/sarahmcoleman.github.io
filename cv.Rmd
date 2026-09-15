@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Summary
 
-Bioprocess development engineer specializing in **upstream process development** and **fed-batch fermentation**. Designed and implemented a first-in-company **fed-batch bioreactor** process end to end, covering feed strategy, control parameters, **SOPs**, **batch records**, and KPIs, and led **tech transfer** to manufacturing. Background spans microbial strain and fermentation process development, multi-omics analysis, and statistical modeling, with upstream PD experience at **Bristol Myers Squibb** (biologics, CHO **cell culture**) and **Takeda** (vaccines, Vero cells). PhD in Chemical Engineering and MS in Statistics, with experience in **scale-up**, **DoE**, and statistical analysis of experimental biology data in Python and R.
+Bioprocess development engineer specializing in **upstream process development** and **fed-batch fermentation**. Designed and implemented a first-in-company **fed-batch bioreactor** process end to end, covering equipment selection, feed strategy, control parameters, **SOPs**, **batch records**, and KPIs, and led **tech transfer** to manufacturing. Background spans microbial strain and fermentation process development, multi-omics analysis, and statistical modeling, with upstream PD experience at **Bristol Myers Squibb** (biologics, CHO **cell culture**) and **Takeda** (vaccines, Vero cells). PhD in Chemical Engineering and MS in Statistics, with experience in **scale-up**, **DoE**, and statistical analysis of experimental biology data in Python and R.
 
 ## Work Experience
 
@@ -32,7 +32,7 @@ Bioprocess development engineer specializing in **upstream process development**
 *Bioprocess Development Engineer* (Contract/Fixed-term) \| Jun 2026 – Present
 
 - Established fed-batch fermentation capability for glycolipid production using *Pseudomonas* strains as the company's subject-matter expert, building on prior collaboration with the Alper Lab
-- Designed and implemented the company's first fed-batch bioreactor process from scratch, including feed strategy, control parameters, and run protocols
+- Designed and implemented the company's first fed-batch bioreactor process from scratch, including equipment selection, feed strategy, control parameters, and run protocols
 - Authored the standard operating procedure (SOP) for bioreactor runs, establishing the reference process documentation used for ongoing and future fermentation campaigns
 - Defined key performance indicators (KPIs) and identified process bottlenecks for glycolipid synthesis, informing the roadmap for scale-up and continuous improvement
 - Led cross-functional technology transfer, translating process knowledge into documentation and protocols to hand off from development to manufacturing teams
@@ -83,6 +83,7 @@ Bioprocess development engineer specializing in **upstream process development**
 
 - Optimized Vero cell culture conditions to improve vaccine production performance within a next-generation manufacturing system
 - Ran tangential flow filtration (TFF) for vaccine manufacturing, and helped design experiments to improve process scalability and production efficiency
+- Performed analytical assays to determine infectious vaccine titer (CFU)
 
 ## Education
 
@@ -97,12 +98,12 @@ Bioprocess development engineer specializing in **upstream process development**
 
 ## Technical Skills
 
-- **Bioprocessing & Fermentation**: Batch and fed-batch microbial fermentation, bioreactor operation with DO and pH control (BioFlo/CelliGen, DeltaV), scale-up, kLa and mass transfer, media and feed development, seed train expansion, tangential flow filtration (TFF), SOPs, batch records, tech transfer
+- **Bioprocessing & Fermentation**: Batch and fed-batch microbial fermentation, bioreactor operation with DO and pH control (BioFlo/CelliGen, DeltaV), high-throughput growth screening (BioLector, 96-well plates), scale-up, kLa and mass transfer, media and feed development, seed train expansion, tangential flow filtration (TFF), SOPs, batch records, tech transfer
 - **Synthetic Biology & Metabolic Engineering**: Metabolic engineering, genome editing (Golden Gate assembly, CRISPR), plasmid design and cloning (*E. coli*), strain engineering, promoter library screening, adaptive laboratory evolution
 - **Cell Culture & Molecular Biology**: Yeast, bacterial, and mammalian (CHO, Vero) cell culture, aseptic technique, cGLP, Vi-CELL, Cedex Bio, NucleoCounter, flow cytometry, qPCR, protein purification, Western blotting
 - **Computational Biology & Data Science**: Python, R, SQL, MATLAB, JMP, statistical modeling, machine learning, data visualization, DoE, CFD (Ansys CFX)
 - **Bioinformatics & Omics**: RNA-seq and Tag-seq (DESeq2), genomic variant analysis, genome annotation, metabolomics, high-performance computing, Docker
-- **Analytical Chemistry**: HPLC, LC-MS/MS, GC-MS, UV-Vis, assay development, plate reader assays, microscopy
+- **Analytical Chemistry**: HPLC, LC-MS/MS, GC-MS, headspace GC, UV-Vis, assay development, plate reader assays
 - **Software**: Benchling, LIMS, Linux, Bash, Git/GitHub, Jupyter, LaTeX, GraphPad Prism
 
 ## Select Honors and Awards
@@ -111,7 +112,7 @@ Bioprocess development engineer specializing in **upstream process development**
 - **National Science Foundation Graduate Research Fellowship (NSF GRFP)**, 2021
 - **Provost’s Graduate Excellence Fellowship, UT Austin**, 2019
 - **Individual Accomplishment Citation, MIT Department of Chemical Engineering**, 2018 & 2019\
-  Only undergraduate to win this award two years in a row, for volunteer work and service to the department
+  Only known undergraduate to win this award two years in a row, for volunteer work and service to the department
 
 ## Publications
 

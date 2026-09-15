@@ -24,5 +24,7 @@
 # Archived files
 archive/
 
-# Private CV variant: local only, never published or committed
+# Private CV variants: local only, never published or committed
+/_cv-variants/
 /_cv-computational.*
+/_cv-consulting.*
