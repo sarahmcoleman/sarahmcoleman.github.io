@@ -1,0 +1,30 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Claude Code local config
+.claude/
+
+# R Markdown build artifacts (root-level intermediates)
+/*_files/
+/*_cache/
+/*.knit.md
+/*.utf8.md
+/cv.tex
+
+# R / RStudio local state
+.Renviron
+.Rapp.history
+
+# macOS
+._*
+
+# Archived files
+archive/
+
+# Private CV variants: local only, never published or committed
+/_cv-variants/
+/_cv-computational.*
+/_cv-consulting.*

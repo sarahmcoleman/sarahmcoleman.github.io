@@ -1,0 +1,127 @@
+---
+title: "Sarah M. Coleman, PhD"
+pagetitle: "Resume | Sarah M. Coleman, PhD"
+lang: en
+
+output:
+  pdf_document:
+    latex_engine: xelatex
+    pandoc_args:
+      - "--variable=documentclass:article"
+      - "--variable=fontsize:10pt"
+      - "--variable=linestretch:0.95"
+    includes:
+      in_header: preamble.tex
+  html_document:
+    theme: readable
+    includes:
+      in_header: head-cv.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Austin, TX \| **Open to relocation nationwide.**
+
+[sarahmcoleman.phd\@gmail.com](mailto:sarahmcoleman.phd@gmail.com) \| [sarahmcoleman.github.io](https://sarahmcoleman.github.io/) \| [linkedin.com/in/sarah-m-coleman](https://www.linkedin.com/in/sarah-m-coleman/)
+
+## Summary
+
+Bioprocess development engineer specializing in **upstream process development** and **fed-batch fermentation**, with upstream PD experience at **Bristol Myers Squibb** (biologics, CHO **cell culture**) and **Takeda** (vaccines, Vero cells). Background spans microbial strain and fermentation process development, downstream protein recovery, multi-omics analysis, and statistical modeling. PhD in Chemical Engineering and MS in Statistics, with experience in **scale-up**, **DoE**, and statistical analysis of experimental biology data in Python and R.
+
+## Work Experience
+
+**BioReNuva**, Austin, TX\
+*Bioprocess Development Engineer* \| Jun 2026 – Present
+
+- Established fed-batch fermentation capability for glycolipid production with *Pseudomonas* as subject-matter expert
+- Designed and implemented the company's first fed-batch bioreactor process from scratch, including equipment selection, feed strategy, control parameters, and run protocols
+- Defined key performance indicators (KPIs) and identified process bottlenecks, informing the scale-up roadmap
+- Authored the bioreactor standard operating procedure (SOP) and batch records; trained team members on the process
+
+**The University of Texas at Austin**, Austin, TX\
+*Postdoctoral Research Fellow (Statistics and Data Sciences)* \| Oct 2024 – Sep 2026
+
+- Developed epidemiological and statistical models of environmental-health data in Dr. Roger D. Peng's group
+- Wrote first-author papers in *Environmental Research Communications*, *Environmental Health* (under review), and *CHANCE* (in press), the last from a first-place JSM Data Challenge Expo entry
+- Advised medical faculty on statistical methodology
+
+**The University of Texas at Austin**, Austin, TX\
+*Lecturer (Statistics and Data Sciences)* \| Jan 2026 – Apr 2026
+
+- Taught a 100-student upper-division data science and machine learning course as the instructor of record, rated 4.32/5 by students, above department, college, and university averages; managed 3 TAs
+
+**The University of Texas at Austin**, Austin, TX\
+*Graduate Research Fellow (Chemical Engineering)* \| Aug 2019 – Aug 2024
+
+- Designed and ran batch *Yarrowia lipolytica* fermentations in 3 L bioreactors at up to 50% (v/v) waste cooking oil, among the highest loadings reported, with CFD modeling of scale-up to 4,000 L, published in *Biotechnology Journal*
+- Developed media formulations, prepared inoculum, ran reactor sterilization and probe calibration, and tracked runs by optical density, dry cell weight, and HPLC for sugars and organic acids
+- Designed factorial (DoE) screens of nitrogen source, nitrogen concentration, and substrate loading to optimize media for a yeast alkane-assimilation panel, analyzed by three-way ANOVA with post-hoc correction
+- Increased *Y. lipolytica* tolerance to hydrothermal liquefaction wastewater from 10% to 30% (v/v) by adaptive laboratory evolution, yielding an isolate with nearly 3-fold higher titer of the high-value polyketide triacetic acid lactone while reducing COD (chemical oxygen demand), published in *Applied Microbiology and Biotechnology*
+- Evolved *Y. lipolytica* for growth on high-density waste cooking oil (submitted to *Bioresource Technology*), characterized it by genomics, transcriptomics, and metabolomics, and engineered it to produce long-chain fatty alcohols
+- Developed a genome editing system using Golden Gate assembly for targeted engineering of *Y. lipolytica*, and used this system to screen a native promoter library
+- Proposed and validated a linear mixed-effects model to quantitatively evaluate the performance of biological Boolean logic gates for the first time, published in *ACS Synthetic Biology*
+- Mentored 4 undergraduates and 2 junior PhD students; presented results to project sponsors and collaborators
+
+**MathWorks**, Remote (Natick, MA)\
+*MATLAB Student Ambassador* \| Mar 2020 – Jul 2021
+
+- Taught technical workshops on MATLAB-based modeling and data analysis to academic researchers at UT Austin
+
+**Massachusetts Institute of Technology**, Cambridge, MA\
+*Advanced Undergraduate Researcher* \| Sep 2018 – Aug 2019
+
+- Developed a method of nanophosphor size sorting in Dr. Michael S. Strano's lab to improve the capacitance of nanoparticles infiltrated into a light emitting plant
+
+**Bristol Myers Squibb**, Devens, MA\
+*Upstream Process Development Intern (Biologics)* \| Jun 2018 – Aug 2018
+
+- Designed and executed metabolite-controlled fed-batch cell culture experiments in 12 parallel 5 L bioreactors to systematically evaluate monoclonal antibody production performance in CHO cell lines
+- Analyzed upstream bioprocess data to identify conditions that improved yield stability and process robustness
+
+**Massachusetts Institute of Technology**, Cambridge, MA\
+*Undergraduate Researcher* \| Sep 2016 – Aug 2018
+
+- Expressed recombinant protein in *E. coli* with IPTG induction, harvested by centrifugation and depth filtration, performed lysis and clarification, and purified by 6xHis affinity chromatography, assessing yield and purity by SDS-PAGE, Bradford, and UV280
+- Developed anaerobic assays in Dr. Gregory Stephanopoulos's lab to characterize the carbon assimilation of *Moorella thermoacetica* enzymes in the Wood-Ljungdahl pathway
+
+**Takeda Pharmaceuticals**, Cambridge, MA\
+*Process Development Intern (Vaccines)* \| May 2017 – Aug 2017
+
+- Optimized Vero cell culture to improve vaccine production in a next-generation manufacturing system
+- Ran tangential flow filtration (TFF) for vaccine manufacturing, and helped design experiments to improve process scalability and production efficiency
+- Performed analytical assays to determine infectious vaccine titer (CFU)
+
+## Education
+
+**The University of Texas at Austin**, Austin, TX\
+*Ph.D. in Chemical Engineering*, Aug 2024 (Advisor: Dr. Hal S. Alper)
+
+**The University of Texas at Austin**, Austin, TX\
+*M.S. in Statistics*, May 2024
+
+**Massachusetts Institute of Technology**, Cambridge, MA\
+*S.B. in Chemical-Biological Engineering*, Jun 2019 (Research advisors: Dr. Michael S. Strano, Dr. Gregory Stephanopoulos)
+
+## Technical Skills
+
+- **Bioprocessing & Fermentation**: Batch and fed-batch microbial fermentation, bioreactor operation with DO and pH control (BioFlo/CelliGen with BioCommand, DeltaV), shake flask culture, high-throughput growth screening (BioLector, 96-well plates), OD600, dry cell weight, off-gas analysis, scale-up, kLa and mass transfer, media and feed development, seed train, tangential flow filtration (TFF), SOPs, batch records, tech transfer documentation
+- **Synthetic Biology & Metabolic Engineering**: Metabolic engineering, genome editing (Golden Gate and Gibson assembly, CRISPR), plasmid design and cloning (*E. coli*), colony selection, strain engineering, promoter library screening, adaptive laboratory evolution
+- **Cell Culture & Molecular Biology**: Yeast, bacterial, and mammalian (CHO, Vero) cell culture, aseptic technique, BSL-2 and BSL-2+, cGLP, recombinant protein expression (IPTG induction), 6xHis affinity chromatography, SDS-PAGE, Vi-CELL, Cedex Bio, NucleoCounter, flow cytometry, qPCR, protein purification, Western blotting
+- **Computational Biology & Data Science**: Python, R, SQL, MATLAB, JMP, statistical modeling, machine learning, data visualization, DoE, CFD (Ansys CFX)
+- **Bioinformatics & Omics**: RNA-seq and Tag-seq (DESeq2), genomic variant analysis, genome annotation, metabolomics, high-performance computing, Docker
+- **Analytical Chemistry**: HPLC, LC-MS/MS, GC-MS, headspace GC, UV-Vis, assay development, plate reader assays
+- **Software**: Benchling, LIMS, Linux, Bash, Git/GitHub, Jupyter, LaTeX, GraphPad Prism
+
+## Select Honors and Awards
+
+- **First Place, Professional Division at the Data Challenge Expo, JSM (Joint Statistical Meetings)**, 2025
+- **National Science Foundation Graduate Research Fellowship (NSF GRFP)**, 2021
+- **Provost’s Graduate Excellence Fellowship, UT Austin**, 2019
+- **Individual Accomplishment Citation, MIT Department of Chemical Engineering**, 2018 & 2019\
+  Only known undergraduate to win this award two years in a row, for volunteer work and service to the department
+
+## Publications
+
+14 peer-reviewed publications, seven as first or co-first author. Full list: [sarahmcoleman.github.io/papers.html](https://sarahmcoleman.github.io/papers.html)
