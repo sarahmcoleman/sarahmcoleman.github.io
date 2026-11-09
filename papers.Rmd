@@ -17,7 +17,7 @@ Below is a list of peer-reviewed publications and manuscripts in preparation aut
 
 #### Original research articles
 
-1.  **Coleman, S. M.**, Zhang, H. S., Lucchesi, L. R., & Roy, S. (in press). Exploring the periodicity of flight patterns. *CHANCE*. Preprint: <https://doi.org/10.48550/arXiv.2606.00128>
+1.  **Coleman, S. M.**, Zhang, H. S., Lucchesi, L. R., & Roy, S. (2026). Exploring the periodicity of flight patterns. *CHANCE*, *39*(3), 9–19. <https://doi.org/10.1080/09332480.2026.2725528>
 
 2.  **Coleman, S. M.**, & Peng, R. D. (2026). Do ozone action day alerts modulate active transportation in Texas cities? *Environmental Research Communications*, *8*(1). <https://doi.org/10.1088/2515-7620/ae2e99>
 
@@ -49,7 +49,7 @@ Below is a list of peer-reviewed publications and manuscripts in preparation aut
 
 #### Under review/In preparation
 
-15. **Coleman, S. M.**, & Peng, R. D. Association of particulate matter emission mixtures with excess mortality. Under review at *Environmental Health*.
-16. O'Connor, R.\*, **Coleman, S. M.\***, Ngo, B., Ramanan, E., Kaown, G., Xie, D., & Alper, H. S. Insights into high-density waste cooking oil fermentations using a wild-type and evolved *Y. lipolytica* strain. Submitted to *Bioresource Technology*.
+15. O'Connor, R.\*, **Coleman, S. M.\***, Ngo, B., Ramanan, E., Kaown, G., Xie, D., & Alper, H. S. Insights into high-density waste cooking oil fermentations using a wild-type and evolved *Y. lipolytica* strain. Submitted to *Bioresource Technology*.
+16. **Coleman, S. M.**, & Peng, R. D. Association of particulate matter emission mixtures with excess mortality. Manuscript in preparation.
 17. Martinez, M. K.\*, **Coleman, S. M.**\*, Marter, C., Vinod, N., Subramanian, A., & Alper, H. S. Alkane metabolism of yeasts in the *Yarrowia* clade. Manuscript in preparation.
 18. Drake, K., Sateesh, S., Vazquez, A., Berg, A., **Coleman, S. M.**, Jaffe, E., Yang, J., Kitos-Vasconcelos, A. P., Alper, H. S., & Nelson, A. Polymer network design regulates dimorphic transitions and function in living materials. Manuscript in preparation.
